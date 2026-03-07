@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Baseline CodeRabbit settings for repositories where review quality matters.
+# Keep this file as the source-of-truth and copy/sync it into other repos.
+language: "en-US"
+early_access: false
+
+reviews:
+  # Keep tone friendly, but increase practical review depth.
+  profile: "assertive"
+  request_changes_workflow: true
+  high_level_summary: true
+  poem: false
+  review_status: true
+  review_details: true
+  auto_review:
+    enabled: true
+    drafts: true
+
+chat:
+  auto_reply: true
