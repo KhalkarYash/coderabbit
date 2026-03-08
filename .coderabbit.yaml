@@ -15,6 +15,14 @@ reviews:
   auto_review:
     enabled: true
     drafts: true
+  target_branches:
+    - dev
+    - main
+    - feature/*
+    - feat/*
+    - bugfix/*
+    - fix/*
+    - hotfix/*
 
 chat:
   auto_reply: true
